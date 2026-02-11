@@ -157,11 +157,11 @@ img {
 
 .btn-primary {
     background: var(--accent-cyan);
-    color: #000000;
-    /* Force excessive contrast */
+    color: #000000 !important;
+    /* Override .nav-links a */
     box-shadow: 0 0 15px var(--accent-cyan-glow);
-    font-weight: 800;
-    /* Make it chunky */
+    font-weight: 800 !important;
+    /* Make it thick */
 }
 
 .btn-primary:hover {
