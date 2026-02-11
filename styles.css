@@ -962,4 +962,11 @@ footer {
         font-size: 1rem;
         margin-left: 8px;
     }
+
+    h2 {
+        font-size: 1.5rem !important;
+        /* Force smaller size for long words */
+        word-wrap: break-word;
+        /* Ensure long words break if needed */
+    }
 }
