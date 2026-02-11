@@ -157,8 +157,11 @@ img {
 
 .btn-primary {
     background: var(--accent-cyan);
-    color: var(--bg-black);
+    color: #000000;
+    /* Force excessive contrast */
     box-shadow: 0 0 15px var(--accent-cyan-glow);
+    font-weight: 800;
+    /* Make it chunky */
 }
 
 .btn-primary:hover {
@@ -166,6 +169,30 @@ img {
     transform: translateY(-2px);
     background: #4de7ff;
 }
+
+/* ... existing btn styles ... */
+
+/* Footer */
+footer {
+    padding: 2rem 0;
+    /* Reduced padding */
+    border-top: 1px solid var(--glass-border);
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    /* Center vertically */
+    margin-bottom: 0;
+    /* Removed bottom margin */
+}
+
+/* Removed newsletter-embed styles */
 
 .btn-secondary {
     background: transparent;
