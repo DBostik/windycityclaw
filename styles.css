@@ -976,9 +976,15 @@ footer {
 
     h2 {
         font-size: 1.5rem !important;
-        /* Force smaller size for long words */
-        word-wrap: break-word;
-        /* Ensure long words break if needed */
+        word-wrap: normal;
+        /* Fix: Don't break words aggressively */
+        overflow-wrap: break-word;
+        /* Only break if word is wider than container */
+    }
+
+    /* Fix "Documentation" breaking in features section */
+    .features h2 {
+        font-size: clamp(1.2rem, 5vw, 1.5rem) !important;
     }
 }
 
