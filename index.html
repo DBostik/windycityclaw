@@ -8,6 +8,39 @@
     <meta name="description"
         content="We deploy secure, private commercial-grade AI agents for Chicago’s busiest founders, brokers, and agency owners. No coding required—just pure leverage.">
 
+    <!-- Open Graph / Facebook / iMessage -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://windycityclaw.com/">
+    <meta property="og:title" content="Windy City Claw | Secure AI Agents for Chicago Founders">
+    <meta property="og:description"
+        content="We deploy secure, private commercial-grade AI agents for Chicago’s busiest founders. No coding required—just pure leverage.">
+    <meta property="og:image" content="https://windycityclaw.com/assets/logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://windycityclaw.com/">
+    <meta property="twitter:title" content="Windy City Claw | Secure AI Agents for Chicago Founders">
+    <meta property="twitter:description"
+        content="We deploy secure, private commercial-grade AI agents for Chicago’s busiest founders.">
+    <meta property="twitter:image" content="https://windycityclaw.com/assets/logo.png">
+
+    <!-- Standard SEO -->
+    <link rel="canonical" href="https://windycityclaw.com/">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Local Business Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Windy City Claw",
+      "image": "https://windycityclaw.com/assets/logo.png",
+      "description": "Secure, private commercial-grade AI agent deployment for Chicago founders and brokers.",
+      "areaServed": "Chicago, IL",
+      "url": "https://windycityclaw.com"
+    }
+    </script>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -121,6 +154,69 @@
                     <h3>Chicago-Style Service</h3>
                     <p>We don't just send you a link. We offer white-glove, in-person setup and training right here in
                         Chicago. We’re real people, not a faceless SaaS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Pricing (First 10 Founders) -->
+    <section id="security-comparison" class="security-comparison">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Difference Between "It Works" and "It's Secure".</h2>
+                <p class="section-subhead">Common deployments leave your keys exposed. We lock the doors.</p>
+            </div>
+
+            <div class="glass security-table">
+                <!-- Header Row -->
+                <div class="table-row table-header">
+                    <div class="col-feature">Feature</div>
+                    <div class="col-us">Windy City Claw ✅</div>
+                    <div class="col-them">Standard Freelancer / DIY ❌</div>
+                </div>
+
+                <!-- Row 1 -->
+                <div class="table-row">
+                    <div class="col-feature">Network Visibility</div>
+                    <div class="col-us wcc-col">
+                        <i data-lucide="shield-check"></i> Invisible (Tailscale Mesh)
+                    </div>
+                    <div class="col-them danger-col">
+                        <i data-lucide="alert-triangle"></i> Exposed (Public IP / Port 22)
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="table-row">
+                    <div class="col-feature">File System</div>
+                    <div class="col-us wcc-col">
+                        <i data-lucide="shield-check"></i> Sandboxed (Scoped Access)
+                    </div>
+                    <div class="col-them danger-col">
+                        <i data-lucide="alert-triangle"></i> Root Access (Dangerous)
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="table-row">
+                    <div class="col-feature">Authentication</div>
+                    <div class="col-us wcc-col">
+                        <i data-lucide="shield-check"></i> Hardware Pairing Required
+                    </div>
+                    <div class="col-them danger-col">
+                        <i data-lucide="alert-triangle"></i> Password / Weak Auth
+                    </div>
+                </div>
+
+                <!-- Row 4 -->
+                <div class="table-row">
+                    <div class="col-feature">Vulnerability Audit</div>
+                    <div class="col-us wcc-col">
+                        <i data-lucide="shield-check"></i> "nmap Clean" (0 Open Ports)
+                    </div>
+                    <div class="col-them danger-col">
+                        <i data-lucide="alert-triangle"></i> Multiple Attack Vectors
+                    </div>
                 </div>
             </div>
         </div>

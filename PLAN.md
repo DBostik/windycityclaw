@@ -28,8 +28,8 @@ Windy City Claw will be a Chicago-based OpenClaw deployment service targeting **
 Based on market analysis and your goals, here's the optimized pricing structure:
 
 #### **Tier 1: Remote Sprint** ✅
-- **Regular Price:** $397 (raised from $247)
-- **First 10 Price:** $247 ⚡
+- **Regular Price:** $697 (raised from $397)
+- **First 10 Price:** $497 ⚡
 - **What's Included:**
   - 90-minute live Zoom setup session
   - OpenClaw installation on your VPS
@@ -41,9 +41,9 @@ Based on market analysis and your goals, here's the optimized pricing structure:
 
 ---
 
-#### **Tier 2: Professional Hardened** 🔒
-- **Regular Price:** $697 (raised from $497)
-- **First 10 Price:** $497 ⚡
+#### **Tier 2: The Executive Suite** 🔒
+- **Regular Price:** $1,497 (raised from $697)
+- **First 10 Price:** $997 ⚡
 - **What's Included:**
   - Full remote setup (2-3 sessions)
   - Email + Calendar integration
@@ -56,8 +56,9 @@ Based on market analysis and your goals, here's the optimized pricing structure:
 
 ---
 
-#### **Tier 3: Chicago VIP In-Person** 🏙️
-- **Regular Price:** $1,497 (raised from $997)
+#### **Tier 3: The Chicago VIP** 🏙️
+- **Regular Price:** $2,997 (raised from $1,497)
+- **First 10 Price:** $1,997 ⚡
 - **First 10 Price:** $997 ⚡
 - **What's Included:**
   - In-person setup at your location (Chicagoland area only)
@@ -298,27 +299,27 @@ Your logo features beautiful blues, cyans, and silvers with a tech/security aest
 
 ---
 
-### Phase 4: Front-End Implementation (Separate Chat with Designer)
-- [ ] Build HTML structure with semantic markup
-- [ ] Implement CSS design system (colors, typography, spacing)
-- [ ] Create pricing cards with glassmorphism effects
-- [ ] Build FAQ accordion component
-- [ ] Integrate HighLevel calendar embed
-- [ ] Integrate Stripe payment links
-- [ ] Add email capture form
-- [ ] Implement smooth scroll animations
-- [ ] Mobile responsive optimization
-- [ ] Cross-browser testing
+### ✅ Phase 4: Front-End Implementation (COMPLETED)
+- [x] Build HTML structure with semantic markup
+- [x] Implement CSS design system (colors, typography, spacing)
+- [x] Create pricing cards with glassmorphism effects
+- [x] Build FAQ accordion component
+- [x] Integrate HighLevel calendar embed
+- [x] Integrate Stripe payment links
+- [x] Add email capture form
+- [x] Implement smooth scroll animations
+- [x] Mobile responsive optimization
+- [x] Cross-browser testing
 
 ---
 
-### Phase 5: Integrations & Setup
-- [ ] Create 3 Stripe products (Remote Sprint, Professional Hardened, Chicago VIP)
-- [ ] Set up HighLevel calendar booking links (3 separate calendars or one with options)
-- [ ] Configure email capture form in HighLevel
-- [ ] Set up Hostinger email (dave@windycityclaw.com or hello@windycityclaw.com)
-- [ ] Configure Hostinger affiliate tracking
-- [ ] Set up Google Analytics
+### ✅ Phase 5: Integrations & Setup (COMPLETED)
+- [x] Create 3 Stripe products (Remote Sprint, Professional Hardened, Chicago VIP)
+- [x] Set up HighLevel calendar booking links (3 separate calendars or one with options)
+- [x] Configure email capture form in HighLevel
+- [x] Set up Hostinger email (dave@windycityclaw.com or hello@windycityclaw.com)
+- [x] Configure Hostinger affiliate tracking
+- [x] Set up Google Analytics
 
 ---
 
@@ -328,6 +329,37 @@ Your logo features beautiful blues, cyans, and silvers with a tech/security aest
 - [ ] Set up email automation for waitlist
 - [ ] Launch "First 10 Founders" campaign
 - [ ] Monitor conversions and iterate
+
+---
+
+### Phase 7: Security & Quality Assurance (Next Step - Sentinel)
+- [ ] Perform full site security audit (headers, inputs, potential XSS)
+- [ ] Verify external integration security (Stripe, HighLevel)
+- [ ] Check for broken links and assets
+- [ ] Validate mobile responsiveness alignment
+- [ ] Performance audit (Lighthouse score check)
+
+---
+
+### Phase 8: Conversion & Security Updates (New)
+**Objective:** Increase trust and conversion by highlighting superior security posture.
+
+#### 1. New "Us vs. Them" Security Section
+*   **Placement:** Between "Value Proposition" and "Pricing".
+*   **Format:** Comparison Table (Glassmorphism style).
+*   **Content Source:** "Security checklist: gateway not public, pairing required, filesystem scoped..."
+*   **Key Differentiators:**
+    *   **Network:** Invisible (Tailscale) vs. Exposed Public IP.
+    *   **Access:** Hardware Key/Pairing vs. Password.
+    *   **Filesystem:** Sandboxed (Scoped) vs. Root Access.
+    *   **Audit:** "nmap clean" (0 open ports) vs. Port 22/80/443 open.
+
+#### 2. SEO & Technical Polish
+*   **Meta Tags:** Add Open Graph (OG) tags for nice link previews (Twitter/LinkedIn/iMessage).
+*   **Favicon:** Ensure distinct favicon is linked.
+*   **Canonical:** Add `<link rel="canonical">` to prevent duplicate content issues.
+*   **Structured Data:** Add `LocalBusiness` JSON-LD schema to help with Chicago local SEO.
+*   **Social Proof:** Add "Verified Secure" badge to the footer or hero.
 
 ---
 
