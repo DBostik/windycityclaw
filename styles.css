@@ -275,6 +275,15 @@ footer {
     align-items: center;
 }
 
+/* Responsive Text Utilities */
+.mobile-text {
+    display: none;
+}
+
+.desktop-text {
+    display: inline;
+}
+
 .logo-img {
     height: 40px;
     /* Adjust based on actual logo aspect ratio */
@@ -1061,7 +1070,7 @@ footer {
 
     .table-row {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
         gap: 0.5rem;
         padding: 1.5rem 0;
@@ -1101,6 +1110,40 @@ footer {
     .col-us {
         background: rgba(0, 217, 255, 0.05);
         border: 1px solid rgba(0, 217, 255, 0.1);
+    }
+
+    .security-table .table-header {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 0;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .table-header .col-feature {
+        display: none;
+    }
+
+    .table-header .col-us,
+    .table-header .col-them {
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        background: none;
+        padding: 0;
+        min-height: auto;
+        border: none;
+        /* Fix: Remove box/border from header */
+    }
+
+    .mobile-text {
+        display: inline;
+    }
+
+    .desktop-text {
+        display: none;
     }
 }
 
