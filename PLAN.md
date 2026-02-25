@@ -1,9 +1,9 @@
 # Windy City Claw - Strategic Plan & Implementation Blueprint
 
 ## Current Status
-**Phase:** Phase 6: Launch & Marketing
-**Status:** Live / Iterating
-**Last Updated:** 2026-02-15
+**Phase:** Phase 9: Product Refining & UI Polish
+**Status:** Planning / Ready for Designer
+**Last Updated:** 2026-02-25
 
 ---
 
@@ -361,6 +361,22 @@ Your logo features beautiful blues, cyans, and silvers with a tech/security aest
 *   **Canonical:** Add `<link rel="canonical">` to prevent duplicate content issues.
 *   **Structured Data:** Add `LocalBusiness` JSON-LD schema to help with Chicago local SEO.
 *   **Social Proof:** Add "Verified Secure" badge to the footer or hero.
+
+---
+
+### Phase 9: Product Refining & UI Polish (Next Step - Designer)
+**Objective:** Update pricing, tier structures, and copy to reflect the new market positioning, ensuring SEO friendliness and maintaining design aesthetics.
+
+#### Roadmap Items for Designer:
+- [ ] **Hero Section:** Remove "FIRST 10 FOUNDERS OFFER" badge from CTA. Update CTA text to "SECURE YOUR SPOT".
+- [ ] **Pricing Section Header:** Remove launch offer banner. Optionally add subtle line "Currently accepting 3 new clients per month." (no emoji).
+- [ ] **Pricing Cards - General:** Remove all strikethrough/crossed-out pricing cleanly displaying full prices. Keep the 3-card layout with the center card elevated.
+- [ ] **Pricing Card 1 (The Starter):** Title: "THE STARTER", Subtitle: "Your first AI employee.", Price: $1,497 / One-time. Update feature bullet points and "Best For" text. Set CTA to "BOOK STARTER SETUP" (outlined/secondary).
+- [ ] **Pricing Card 2 (The Executive Suite - Most Popular):** Title: "THE EXECUTIVE SUITE", Subtitle: "Your AI Chief of Staff.", Price: $2,997 / One-time. Update feature bullet points and "Best For" text. Set CTA to "BOOK EXECUTIVE SETUP" (filled cyan/primary).
+- [ ] **Pricing Card 3 (The Full Build):** Title: "THE FULL BUILD", Subtitle: "Your AI department.", Price: $4,997 / One-time. Update feature bullet points and "Best For" text. Set CTA to "APPLY FOR FULL BUILD" (outlined/secondary/distinct).
+- [ ] **Managed Care Section:** Keep 2 cards. Care Lite ($199/mo) and Care Pro ($499/mo). Update feature lists for both.
+- [ ] **FAQ Updates:** Update all references to old tier prices/names. Add 3 new FAQs ("Executive Suite vs Full Build", "Do I need Managed Care?", "Can I upgrade later?").
+- [ ] **SEO & Design Constraints:** Ensure HTML elements use semantic tags for SEO. Preserve the dark theme, cyan accents, and keep existing sections (Security Comparison, How It Works, From One Founder to Another) untouched.
 
 ---
 
