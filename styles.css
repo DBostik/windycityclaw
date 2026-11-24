@@ -1151,3 +1151,119 @@ footer {
 #security-comparison {
     scroll-margin-top: 100px;
 }
+/* Founding Client banner (hero) */
+.founding-banner {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-bottom: 2.5rem;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid rgba(0, 217, 255, 0.35);
+    border-radius: 999px;
+    background: rgba(0, 217, 255, 0.08);
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.founding-banner:hover {
+    border-color: var(--accent-cyan);
+    background: rgba(0, 217, 255, 0.14);
+}
+
+.founding-tag {
+    background: var(--accent-cyan);
+    color: var(--bg-black);
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 3px 10px;
+    border-radius: 999px;
+}
+
+.founding-banner i {
+    color: var(--accent-cyan);
+    width: 16px;
+}
+
+/* Pricing note */
+.pricing-note {
+    display: flex;
+    gap: 0.8rem;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 3rem auto 0;
+    padding: 1.2rem 1.5rem;
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.02);
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.pricing-note i {
+    color: var(--accent-cyan);
+    flex-shrink: 0;
+    width: 20px;
+    margin-top: 2px;
+}
+
+.pricing-note strong {
+    color: var(--text-primary);
+}
+
+/* Founding Client Program section */
+.founding {
+    padding: var(--section-padding);
+}
+
+.founding-card {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 3rem;
+    border-color: rgba(0, 217, 255, 0.35);
+}
+
+.founding-grid {
+    margin-bottom: 1.5rem;
+}
+
+.founding-h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--accent-cyan);
+}
+
+.founding-fine {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .founding-card {
+        padding: 1.5rem;
+    }
+
+    .founding-banner {
+        border-radius: 16px;
+        font-size: 0.9rem;
+    }
+
+    .pricing-note {
+        padding: 1rem;
+    }
+}
+
+.mc-header {
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.mc-price {
+    white-space: nowrap;
+}
